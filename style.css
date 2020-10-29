@@ -1,497 +1,84 @@
 body {
-	color: #141414;
-	font-family: Adobe Caslon Pro;
+	max-width: 100%;
+	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
-	height: 100%;
 }
 
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-h1 {
-	font-size: 30pt;
-	color: #434343;
-	margin: 0;
+.logo {
+    margin-top: -12vh;
 }
 
 
-
-
-
-/**************		Homepage	**************/
-
-
-
-
-.topfluid {
-	position: absolute;
-}
-
-.break {
-	border-color: white;
+.logo img {
+    width: 150px;
 }
 
 
-
-.toptekst {
+.pagecontainer {
 	height: 100vh;
-	background-color: #FFF0CE;
-	padding-top: 30vh;
-	padding-left: 9vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Didact Gothic';
+	color: #1d1d1b;
 }
 
+.pagecontainer h1 {
+	font-size: 2.7rem;
+	font-weight: 500;
+}
 
+.pagecontainer h2 {
+	font-size: 1.5rem;
+}
 
-@media only screen and (max-width: 800px) { 
+.pagecontainer h3 {
+	font-size: 1rem;
+	color: #919191;
+}
 
-	h1 {
-		font-size: 24pt;
+@media only screen and (max-width: 450px) {
+
+	.pagecontainer h1 {
+		font-size: 25px
 	}
 
-	h2 {
-		font-size: 18pt;
+	.pagecontainer h2 {
+		font-size: 18px;
 	}
 
-	.homecontent p{
-		font-size: 13pt;
+	.pagecontainer h3 {
+		font-size: 14px;
 	}
 
-	.toptekst {
-		height: 80vh;
+	.pagecontainer {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		font-family: 'Didact Gothic';
+		color: #1d1d1b;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
-}
-
-@media only screen and (max-width: 600px) { 
-
-	h1 {
-		font-size: 20pt;
+	.logo {
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: -20vh;
 	}
 
-	h2 {
-		font-size: 16pt;
-	}
-
-	.homecontent p{
-		font-size: 12pt;
-	}
-
-}
-
-
-
-.homecontent {
-	height: 52vh;
-	padding-left: 9vw;
-	padding-top: 20vh;
-}
-
-.homecontentklein {
-	height: 65vh;
-	display: none;
-	padding: 15%;
-
-}
-
-.afbeelding2 {
-	width: 40vw;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5%;
-}
-
-
-@media only screen and (max-width: 800px){
-
-	.groot {
-		display: none;
-	}
-
-	.homecontentklein {
-		display: block;
-	}
-
-}
-
-
-@media only screen and (max-width: 1000px){
-
-	.grootwerk {
-		display: none;
-	}
-
-
-
-}
-
-
-.homecontenttekst {
-	font-size: 16pt;
-}
-
-.homecontenttekstklein {
-	font-size: 14.5pt;
-	margin-top: 15%;
-}
-
-.afbeelding1 {
-	width: 220px;
-}
-
-
-
-@media only screen and (max-width: 1000px){
-	.afbeelding1 {
-		width: 20vw;
-	}
-
-	.homecontenttekst {
-	font-size: 14pt;
-}
-}
-
-@media only screen and (max-width: 800px){
-	.afbeelding1 {
-		width: 24vw;
-	}
-}
-
-
-
-.homecontent3 {
-	height: 100vh;
-	padding-left: 9vw;
-	padding-top: 20vh;
-}
-
-
-
-
-
-
-
-
-.hometopklein {
-	display: none;
-}
-
-.teksttopfluid {
-	color: #141414;
-	margin-top: 20%;
-	margin-left: 30%;
-}
-
-.homecontainer {
-	height: 500px;
-	padding: 6%;
-	background-color: #F0F0F0;
-}
-
-.homeklein  {
-	display: none;
-}
-
-
-.containerklein {
-	height: 500px;
-	display: none;
-	background: #F0F0F0;
-}
-
-.containerkop {
-	font-size: 25pt;
-	color: #141414;
-}
-
-.skillslogo {
-	height: 50px;
-	width: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************		Header		**************/
-
-.topheader {
-	height: 400px;
-	object-fit: contain;
-}
-
-
-
-/**************		content	groot scherm	**************/
-
-
-.content {
-	margin-right: 100px;
-	margin-left: 100px;
-}
-
-.rij1 {
-	background-color: green;
-	height: 400px;
-}
-
-
-.rij2 {
-	background-color: yellow;
-	height: 400px;
-}
-
-
-.rij3 {
-	background-color: red;
-	height: 400px;
-}
-
-.middelscherm {
-	display: none;
-}
-
-
-.kleinscherm {
-	display: none;
-}
-
-.col-4 {
-	padding: 0;
-}
-
-.col-8 {
-	padding: 0;
-}
-
-.topheader2 {
-	height: 400px;
-	margin-top: 30px;
-	transition: 2s;
-	position: relative;
-}
-
-.topheader3 {
-	height: 400px;
-	margin-top: 30px;
-	transition: 1.3s;
-}
-
-.topcontent {
-	height: 400px;
-	background: grey;
-}
-
-.divider {
-	height: 75px;
-}
-
-.divider2 {
-	height: 50px;
-}
-
-.btn {
-	background-color: rgba(0, 0, 0, 0.2);
-	border: 0;
-}
-
-/**************		slide container 1	**************/
-
-.links1 {
-	right: 1000px;
-	transition: 1.8s;
-
-}
-
-.rechts1 {
-	left: 1000px;
-	transition: 1.3s;
-
-}
-
-/**************		slide container 2	**************/
-
-.links2 {
-	right: 1000px;
-	transition: 1.3s;
-
-}
-
-.rechts2 {
-	left: 1000px;
-	transition: 1.8s;
-
-}
-
-
-/**************		slide container 3	**************/
-
-.links3 {
-	right: 1000px;
-	transition: 1.8s;
-
-}
-
-.rechts3 {
-	left: 1000px;
-	transition: 1.3s;
-
-}
-
-/**************		slide container 4	**************/
-
-.links4 {
-	right: 1000px;
-	transition: 1.3s;
-
-}
-
-.rechts4 {
-	left: 1000px;
-	transition: 1.8s;
-
-}
-
-/**************		slide container 5	**************/
-
-.links5 {
-	right: 1000px;
-	transition: 1.8s;
-
-}
-
-.rechts5 {
-	left: 1000px;
-	transition: 1.3s;
-
-}
-
-/**************		content	middel scherm	**************/
-
-
-
-
-@media only screen and (max-width: 1000px) {
-
-
-.grootscherm {
-	display: none;
-}
-  
-
-.middelscherm {
-	display: block;
-}
-
-.kleinscherm {
-	display: none;
+	.logo img {
+    width: 140px;
 }
 
 
 }
-
-
-/**************		content	klein scherm	**************/
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-.grootscherm {
-	display: none;
-}
-  
-
-.middelscherm {
-	display: none;
-}
-
-.kleinscherm {
-	display: block;
-}
-
-.content {
-	margin-right: 15%;
-	margin-left: 15%;
-}
-
-.topheader {
-	height: 400px;
-	background-color: blue;
-}
-
-}
-
-
-.h1naam {
-  border-right: solid 2px black;
-  white-space: nowrap;
-  overflow: hidden;    
-  animation: animated-text 2s steps(29,end) 0.5s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
-
-
-}
-
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 580px;}
-}
-
-@media only screen and (max-width: 800px) { 
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 465px;}
-}
-
-}
-
-@media only screen and (max-width: 600px) { 
-
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 380px;}
-}
-}
-
-
-@keyframes animated-cursor{
-  from{border-right-color: black;}
-  to{border-right-color: transparent;}
-}
-
-
-
-
-
-
-
-
 
 
