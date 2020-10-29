@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+
 }
 
 
@@ -28,7 +29,6 @@ body {
 .pagecontainer h1 {
 	font-size: 2.7rem;
 	font-weight: 500;
-	color: red;	
 }
 
 .pagecontainer h2 {
