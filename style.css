@@ -51,11 +51,12 @@ body {
 	}
 
 	.pagecontainer h2 {
-		font-size: 18px;
+		font-size: 15px;
+		line-height: 1.3rem;
 	}
 
 	.pagecontainer h3 {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	.pagecontainer {
