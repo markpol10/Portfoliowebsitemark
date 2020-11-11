@@ -1,17 +1,18 @@
 body {
+	max-width: 100%;
+	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
-	max-height: 100%;
 }
 
 
 .logo {
-    margin-top: -12vh;
+    margin-top: -4vh;
 }
 
 
 .logo img {
-    width: 150px;
+    width: 140px;
 }
 
 
@@ -27,17 +28,20 @@ body {
 }
 
 .pagecontainer h1 {
-	font-size: 2.7rem;
+	font-size: 2.5rem;
 	font-weight: 500;
 }
 
 .pagecontainer h2 {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
+	z-index: 2;
+	line-height: 1.5rem;
 }
 
 .pagecontainer h3 {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	color: #919191;
+	z-index: 2;
 }
 
 @media only screen and (max-width: 450px) {
@@ -79,12 +83,32 @@ body {
 
 }
 
-
-@font-face {
-    font-family: 'didact_gothicregular';
-    src: url('didactgothic-regular-webfont.woff2') format('woff2'),
-         url('didactgothic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.imgOot img{
+    width: 320px;
+    z-index: 0;
+    margin-top: -40px;
 }
+
+
+
+@media only screen and (max-width: 450px) {
+	.logo {
+    margin-top: 8vh;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
